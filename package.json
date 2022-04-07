@@ -1,0 +1,39 @@
+{
+  "name": "alfred-one-thing",
+  "version": "0.0.2",
+  "description": "Set the text for the One Thing app",
+  "license": "MIT",
+  "repository": "jopemachine/alfred-one-thing",
+  "engines": {
+    "node": ">=14"
+  },
+  "author": {
+    "email": "jopemachine@naver.com",
+    "name": "jopemachine"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "xo && ava",
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "files": [
+    "index.js",
+    "icon.png",
+    "info.plist"
+  ],
+  "keywords": [
+    "alfred",
+    "workflow",
+    "alfy"
+  ],
+  "dependencies": {
+    "alfy": "^1.0.0",
+    "one-thing": "^1.1.0"
+  },
+  "devDependencies": {
+    "alfy-test": "^0.4.2",
+    "ava": "^4.1.0",
+    "xo": "^0.48.0"
+  }
+}

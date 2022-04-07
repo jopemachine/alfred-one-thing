@@ -1,0 +1,8 @@
+{
+  "@jopemachine/generator-alfred": {
+    "promptValues": {
+      "githubUsername": "jopemachine",
+      "website": "http://abc"
+    }
+  }
+}
